@@ -1,5 +1,6 @@
 # I2IDifT
 A new approach for multi contrast MRI synthesis using latent diffusion transformers
+
 Here are some suggestions I would like to make (if you want to reproduce I2IDiffT).
 
 Firstly, you need to train a very good encoder and decoder in the VAE framework, which is crucial for I2IDift. Because I2IDifT requires it to achieve mutual mapping between the original image space and the latent representation space. 
